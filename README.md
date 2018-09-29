@@ -5,7 +5,7 @@ Bank reproting tool and menu system. Lab 02 for ITM 510 IIT Fall 2018
 To write a program that parses and processes bank data from a file.
 
 
-##PROJECT DESCRIPTION
+## PROJECT DESCRIPTION
 Bank of IIT has gotten their hands on some interesting data which will allow for possible loans to various clients from various regions.
 
 Accompanying the labs specs is a csv (comma separated value) file named 
