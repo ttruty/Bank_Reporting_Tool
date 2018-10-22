@@ -12,7 +12,6 @@ public class BankRecordsTest {
 
         if (Login.loginState) {
             Menu bankMenu = new Menu();
-
             bankMenu.bankMenu();
         }
          else {

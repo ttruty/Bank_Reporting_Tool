@@ -1,0 +1,187 @@
+Avg inc. for rural region 30027.61
+Avg inc. for inner city region 27752.87
+Avg inc. for town region 26802.19
+Avg inc. for suburban region 28656.36
+...
+Rural region max income 	57398.1
+Inner city region max income 	266222.8
+Town region max income 		59803.9
+Suburban region max income 	63130.1
+...
+Rural region max income 	57398.1
+Inner city region max income 	266222.8
+Town region max income 		59803.9
+Suburban region max income 	63130.1
+...
+Rural region females with mort and savings acct: 	9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 	27
+Suburban region females with mort and savings acct: 	4
+...
+Rural region females with mort and savings acct: 	9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 	27
+Suburban region females with mort and savings acct: 	4
+...
+Avg inc. for rural region 		30027.61
+Avg inc. for inner city region 		27752.87
+Avg inc. for town region 		26802.19
+Avg inc. for suburban region 		28656.36
+...
+Rural region max income 		57398.1
+Inner city region max income 		266222.8
+Town region max income 		59803.9
+Suburban region max income 		63130.1
+...
+Rural region max income 		57398.1
+Inner city region max income 		266222.8
+Town region max income 		59803.9
+Suburban region max income 		63130.1
+...
+Rural region females with mort and savings acct: 		9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 		27
+Suburban region females with mort and savings acct: 	4
+...
+Rural region females with mort and savings acct: 		9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 		27
+Suburban region females with mort and savings acct: 	4
+...
+Avg inc. for rural region 	30027.61
+Avg inc. for inner city region 	27752.87
+Avg inc. for town region 		26802.19
+Avg inc. for suburban region 	28656.36
+...
+Rural region max income 	57398.1
+Inner city region max income 	266222.8
+Town region max income 		59803.9
+Suburban region max income 	63130.1
+...
+Rural region max income 	57398.1
+Inner city region max income 	266222.8
+Town region max income 		59803.9
+Suburban region max income 	63130.1
+...
+Rural region females with mort and savings acct: 		9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 		27
+Suburban region females with mort and savings acct: 	4
+...
+Rural region females with mort and savings acct: 		9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 		27
+Suburban region females with mort and savings acct: 	4
+...
+Avg inc. for rural region 		30027.61
+Avg inc. for inner city region 	27752.87
+Avg inc. for town region 		26802.19
+Avg inc. for suburban region 	28656.36
+...
+Rural region max income 		57398.1
+Inner city region max income 	266222.8
+Town region max income 			59803.9
+Suburban region max income 		63130.1
+...
+Rural region max income 		57398.1
+Inner city region max income 	266222.8
+Town region max income 			59803.9
+Suburban region max income 		63130.1
+...
+Rural region females with mort and savings acct: 		9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 		27
+Suburban region females with mort and savings acct: 	4
+...
+Rural region females with mort and savings acct: 		9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 		27
+Suburban region females with mort and savings acct: 	4
+...
+Analyisis completed on:
+2018/10/22 07:09:06
+Programmed by Tim Truty
+...
+Avg inc. for rural region 		30027.61
+Avg inc. for inner city region 	27752.87
+Avg inc. for town region 		26802.19
+Avg inc. for suburban region 	28656.36
+...
+Rural region max income 		57398.1
+Inner city region max income 	266222.8
+Town region max income 			59803.9
+Suburban region max income 		63130.1
+...
+Rural region max income 		57398.1
+Inner city region max income 	266222.8
+Town region max income 			59803.9
+Suburban region max income 		63130.1
+...
+Rural region females with mort and savings acct: 		9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 		27
+Suburban region females with mort and savings acct: 	4
+...
+Rural region females with mort and savings acct: 		9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 		27
+Suburban region females with mort and savings acct: 	4
+...
+Analyisis completed on:
+2018/10/22 15:48:35
+Programmed by Tim Truty
+...
+Avg inc. for rural region 		30027.61
+Avg inc. for inner city region 	27752.87
+Avg inc. for town region 		26802.19
+Avg inc. for suburban region 	28656.36
+...
+Rural region max income 		57398.1
+Inner city region max income 	266222.8
+Town region max income 			59803.9
+Suburban region max income 		63130.1
+...
+Rural region max income 		57398.1
+Inner city region max income 	266222.8
+Town region max income 			59803.9
+Suburban region max income 		63130.1
+...
+Rural region females with mort and savings acct: 		9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 		27
+Suburban region females with mort and savings acct: 	4
+...
+Rural region females with mort and savings acct: 		9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 		27
+Suburban region females with mort and savings acct: 	4
+...
+Analyisis completed on:
+2018/10/22 16:40:21
+Programmed by Tim Truty
+...
+Avg inc. for rural region 		30027.61
+Avg inc. for inner city region 	27752.87
+Avg inc. for town region 		26802.19
+Avg inc. for suburban region 	28656.36
+...
+Rural region max income 		57398.1
+Inner city region max income 	266222.8
+Town region max income 			59803.9
+Suburban region max income 		63130.1
+...
+Rural region max income 		57398.1
+Inner city region max income 	266222.8
+Town region max income 			59803.9
+Suburban region max income 		63130.1
+...
+Rural region females with mort and savings acct: 		9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 		27
+Suburban region females with mort and savings acct: 	4
+...
+Rural region females with mort and savings acct: 		9
+Inner city region females with mort and savings acct: 	31
+Town region females with mort and savings acct: 		27
+Suburban region females with mort and savings acct: 	4
+...

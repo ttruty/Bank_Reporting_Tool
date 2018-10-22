@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Menu {
 
     //create scanner class object to use in methods
-    private Scanner scanner = new Scanner(System.in);
+    public Scanner scanner = new Scanner(System.in);
     //create the bank records  objects
     BankRecords br = new BankRecords();
 
@@ -36,11 +36,11 @@ public class Menu {
 
             //run loop until the user makes a correct choice
             while (!scanner.hasNextInt()) { //validate is Int
-                System.out.println("Please enter a valid selection 1-5");
+                System.out.println("Please enter a valid selection 1-6");
                 scanner.next(); //check scanner again
             }
             selection = scanner.nextInt();
-        } while(selection <=0 || selection > 5);
+        } while(selection <=0 || selection > 6);
 
         menuSelection(selection);
     }
@@ -48,7 +48,7 @@ public class Menu {
     /**
      menu display options
      */
-    private void bankMenuDisplay(){
+    public void bankMenuDisplay(){
         //TODO: create login screen w/ account number and pin
 
         //display menu options
@@ -57,10 +57,11 @@ public class Menu {
         System.out.println("\t\t 2. Report File Info");
         System.out.println("\t\t 3. User List");
         System.out.println("\t\t 4. About");
-        System.out.println("\t\t 5. Log Out");
+        System.out.println("\t\t 5. Analysis");        
+        System.out.println("\t\t 6. Log Out");
     }
 
-    private void menuSelection(int selection){
+    public void menuSelection(int selection){
 
         // switch statement
         switch(selection) {
@@ -111,7 +112,33 @@ public class Menu {
                 systemInfo();
                 terminationOption(); //user control for another transaction or finish
                 break;
+              
             case 5:
+                //about
+                // Run analysis menu
+            	AnalysisMenu analysisMenu = new AnalysisMenu();
+                analysisMenu.bankMenu();
+            	//TODO: make Analysis Menu
+                
+//        	    Records br = new Records();
+//                br.readData();
+//                    //call functions to perform analytics 
+//            	    Records.LocationComp(); // analyze average income per loc
+//            	    //MaxMinComp();  //compare max and min incomes per loc  
+//            	    //femsComp();    //  analyze females w. mort/savings accounts per loc
+//            	    //malesComp();  // analyze male count w. car and 1 child per loc 
+//
+//                // *** close out file object ***//
+//            	try {
+//        		Records.fw.close();
+//        		} catch (IOException e) {
+//        		// TODO Auto-generated catch block
+//        		e.printStackTrace();
+//        		}
+                
+                //terminationOption(); //user control for another transaction or finish
+                break;
+            case 6:
                 System.out.println("Would you like to log out?\n" +
                         "(y)es or (n)o");
 
@@ -153,7 +180,7 @@ public class Menu {
     /**
      * print out system info
      */
-    private void systemInfo(){
+    public void systemInfo(){
         System.out.println("");
         System.out.println(
                 "*************Reporting System Info**************\n" +
@@ -173,7 +200,7 @@ public class Menu {
      *
      * @param flag
      */
-    private void fileFlagAlert(boolean flag){
+    public void fileFlagAlert(boolean flag){
         // if the file flag is true display the message and relaunch menu
         if (flag){
             System.out.println("");
@@ -190,7 +217,7 @@ public class Menu {
     /**
      *  control for leaving the system or continuing usa
      */
-    private void terminationOption()
+    public void terminationOption()
     {
         System.out.println("Would you like to complete another report?\n" +
                 "(y)es or (n)o");
@@ -210,7 +237,7 @@ public class Menu {
                 System.out.println("\tThank you for using IIT BANK\n" +
                         "\tHAVE A GREAT DAY!\n\n");
 
-                // time stamp and tim stamp
+                // time stamp and time stamp
                 String timeStamp = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss").format(Calendar.getInstance().getTime());
                 System.out.println("Cur dt=" + timeStamp + "\nProgrammed by Tim Truty\n");
 
@@ -221,6 +248,47 @@ public class Menu {
             }
 
         }
-        scanner.close();
+        scanner.close(); //close out scanner object
+    }
+        
+    public void logout()
+    {
+    
+	    System.out.println("Would you like to log out?\n" +
+	            "(y)es or (n)o");
+	
+	    // user control for termination or continue
+	    while (true) {
+	        char charInput = scanner.next().charAt(0);
+	
+	        // log out
+	        if (charInput == 'y' || charInput == 'Y') {
+	            Login.loginState = false; //reset login state
+	            Login.loginTryCount = 0; //reset logint try counter
+	            System.out.println("");
+	            System.out.println("");
+	            System.out.println("");
+	            System.out.println("");
+	            Login.run(); //re run log in
+	            if (Login.loginState) {
+	                bankMenu(); //re run bank menu
+	            }
+	            else{
+	                return;
+	            }
+	            break;
+	
+	            // termination of transactions
+	        } else if (charInput == 'n' || charInput == 'N') {
+	            // display final menu
+	            // thank you message
+	            bankMenu();
+	            break;
+	        } else {
+	            // catch error
+	            System.out.println("Please enter a valid response");
+	        }
+	    }
+	    scanner.close();
     }
 }
