@@ -25,8 +25,12 @@ public class Records extends BankRecords{
 			//timeStamp variable to hold current date/time
 			String timeStamp = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss").format(Calendar.getInstance().getTime());
 			try {
-		 	      fw.write("Analyisis completed on:" + "\n" +
-		 	    		 timeStamp + "\nProgrammed by Tim Truty\n");
+		 	      fw.write("***********************************************************\n"
+		 	      		+ "Analysis completed on: \t\t" +  timeStamp + "\n" +
+		 	    		"User completing analysis is: \t" + Login.userLogName + "\n" +
+		 	    		"--------------------------------------" +
+		 	    		"\nProgrammed by Tim Truty\n");
+		 	      
 		          fw.write("...\n");
 			    } catch (IOException e) {
 			      e.printStackTrace();
@@ -243,10 +247,10 @@ public class Records extends BankRecords{
 		    		   "Town region max income \t\t\t" + Math.round(minmaxArr[5]*100.0)/100.0 + "\n" +
 		    		   "Suburban region max income \t\t" + Math.round(minmaxArr[7]*100.0)/100.0 + "\n");
 	          fw.write("...\n");
-              fw.write("Rural region max income \t\t" + Math.round(minmaxArr[1]*100.0)/100.0 + "\n" +
-	    		   "Inner city region max income \t" + Math.round(minmaxArr[3]*100.0)/100.0 + "\n" +
-	    		   "Town region max income \t\t\t" + Math.round(minmaxArr[5]*100.0)/100.0 + "\n" +
-	    		   "Suburban region max income \t\t" + Math.round(minmaxArr[7]*100.0)/100.0 + "\n");
+              fw.write("Rural region min income \t\t" + Math.round(minmaxArr[0]*100.0)/100.0 + "\n" +
+	    		   "Inner city region min income \t" + Math.round(minmaxArr[2]*100.0)/100.0 + "\n" +
+	    		   "Town region min income \t\t\t" + Math.round(minmaxArr[4]*100.0)/100.0 + "\n" +
+	    		   "Suburban region min income \t\t" + Math.round(minmaxArr[6]*100.0)/100.0 + "\n");
               fw.write("...\n");
 		    } catch (IOException e) {
 		      e.printStackTrace();
@@ -365,10 +369,10 @@ public class Records extends BankRecords{
 		    		   "Town region females with mort and savings acct: \t\t" + sexArr[2] + "\n" +
 		    		   "Suburban region females with mort and savings acct: \t" + sexArr[3] + "\n");
 	          fw.write("...\n");
-              fw.write("Rural region females with mort and savings acct: \t\t" + sexArr[0] + "\n" +
-   	    		   "Inner city region females with mort and savings acct: \t" + sexArr[1] + "\n" +
-   	    		   "Town region females with mort and savings acct: \t\t" + sexArr[2] + "\n" +
-   	    		   "Suburban region females with mort and savings acct: \t" + sexArr[3] + "\n");
+              fw.write("Rural region males with car and 1 child: \t\t" + sexArr[4] + "\n" +
+   	    		   "Inner city region males with car and 1 child: \t" + sexArr[5] + "\n" +
+   	    		   "Town region males with car and 1 child: \t\t" + sexArr[6] + "\n" +
+   	    		   "Suburban region males with car and 1 child: \t" + sexArr[7] + "\n");
               fw.write("...\n");
 		    } catch (IOException e) {
 		      e.printStackTrace();

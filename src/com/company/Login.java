@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Login {
     public static boolean loginState = false;
     static int loginTryCount = 0;
-
+    public static String userLogName;
     /**
      * Login method to run the login options
      * and authentication
@@ -61,6 +61,7 @@ public class Login {
                     System.out.println("");
                     System.out.println("");
                     loginState = true;
+                    userLogName = username;
                 }
                 else if (!authentic)
                 {

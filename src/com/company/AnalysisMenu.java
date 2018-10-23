@@ -17,6 +17,7 @@ public class AnalysisMenu extends Menu{
 	public void bankMenu(){
 
 		
+				
         int selection; //holds user selection choice
         do {
             //display bank menu options
@@ -38,15 +39,13 @@ public class AnalysisMenu extends Menu{
 
 	@Override
 	public void bankMenuDisplay(){
-        //TODO: create login screen w/ account number and pin
-    	
+        
+		
     	/*
-    	
     		average income per location
     		max and min income per location
     		number of females with both a mortgage and savings account per location
     		number of males with both a car and 1 child per location
-
     	*
     	*/
         //display menu options
@@ -65,11 +64,17 @@ public class AnalysisMenu extends Menu{
 		//create records object
 		Records records = new Records();
 		
+		
+    	
+		
         // switch statement
         switch(selection) {
             // case statements
             // values must be of same type of expression
             case 1:
+            	// check flags and alert if file not found
+        		fileFlagAlert(BankRecords.fileFlag);            	
+            	
                 //display report
                 System.out.println("----- Full Analyisis Display -----");
                 System.out.println("");
@@ -84,6 +89,9 @@ public class AnalysisMenu extends Menu{
                 break;
 
             case 2:
+            	// check flags and alert if file not found
+        		fileFlagAlert(BankRecords.fileFlag);
+            	
             	System.out.println("----- Location based analysis -----");     
             	System.out.println("");
             	System.out.println(" ");
@@ -94,6 +102,9 @@ public class AnalysisMenu extends Menu{
                 break;
 
             case 3:
+            	// check flags and alert if file not found
+        		fileFlagAlert(BankRecords.fileFlag);
+            	
             	System.out.println("----- Sex based Display -----");
                 System.out.println("");
                 
@@ -102,8 +113,9 @@ public class AnalysisMenu extends Menu{
                 break;
 
             case 4:
-                //about
-                //print system info
+            	// check flags and alert if file not found
+        		fileFlagAlert(BankRecords.fileFlag);
+                
             	System.out.println("--------- Age Analysis ---------");
                 System.out.println("");
                 records.printAgeAnalysis(); // analyze age aerages
@@ -112,6 +124,9 @@ public class AnalysisMenu extends Menu{
                 break;
               
             case 5:
+            	// check flags and alert if file not found
+        		fileFlagAlert(BankRecords.fileFlag);
+            	
             	// save the data to the file
             	System.out.println("----- Save Analysis to File -----");
                 System.out.println("");

@@ -204,11 +204,11 @@ public class Menu {
         // if the file flag is true display the message and relaunch menu
         if (flag){
             System.out.println("");
-            System.out.println("***************WARNING*****^^^^^^^^^^^^");
-            System.out.println("************************^^^^^^^^^^^^^^^");
-            System.out.println("*File error, please contact IT Support*");
-            System.out.println("**************************************^");
-            System.out.println("**************************************^");
+            System.out.println("***************WARNING*****************");
+            System.out.println("***************************************");
+            System.out.println("**FILE ERROR-  CONTACT SYSTEM SUPPORT**");
+            System.out.println("***************************************");
+            System.out.println("***************************************");
             System.out.println("");
             bankMenu(); //re-launch bank menu
         }

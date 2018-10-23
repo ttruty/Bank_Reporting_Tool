@@ -170,10 +170,14 @@
     <end type="TARGET" refId="1"/>  
   </generalization>  
   <dependency id="32">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="33">    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="8"/>  
   </dependency>  
-  <dependency id="33">    
+  <dependency id="34">    
     <end type="SOURCE" refId="10"/>    
     <end type="TARGET" refId="5"/>  
   </dependency>  
