@@ -1,4 +1,4 @@
-package com.company;
+package records;
 import java.util.Comparator;
 
 public class LocationComparator implements Comparator<BankRecords>{

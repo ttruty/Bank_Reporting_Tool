@@ -1,4 +1,4 @@
-package com.company;
+package records;
 
 import java.io.FileWriter;
 import java.io.IOException;

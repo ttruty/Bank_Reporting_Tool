@@ -1,4 +1,4 @@
-package com.company;
+package records;
 
 public class User {
     /**

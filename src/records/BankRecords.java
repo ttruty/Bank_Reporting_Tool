@@ -1,4 +1,4 @@
-package com.company;
+package records;
 
 import java.io.*;
 import java.nio.file.Files; //fileInfo
@@ -7,8 +7,11 @@ import java.nio.file.attribute.BasicFileAttributes; //fileInfo
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import java.util.HashMap;
 
-public class BankRecords extends Client {
+
+public class BankRecords extends Client implements Serializable {
     /**
      * Creates the bank record objects,
      * Calls the read, process, print data
@@ -17,12 +20,13 @@ public class BankRecords extends Client {
 
     final static int NUMOFRECORDS = 600; //constant to hold the number of records in file
     //array of BankRecords objects
-    static BankRecords robjs[] = new BankRecords[NUMOFRECORDS];
+    protected static BankRecords robjs[] = new BankRecords[NUMOFRECORDS];
     //arraylist to hold spreadsheet rows & columns
     static ArrayList<List<String>> array = new ArrayList<>();
     //set the filePath
     String filePath = "Resources\\bank-Detail.csv";
-
+    
+    
     // Instance fields
     private String id;
     private int age;
@@ -58,7 +62,8 @@ public class BankRecords extends Client {
 
         //initialize reader object and set file path to root of project
         try {
-            br = new BufferedReader(new FileReader(new File(filePath)));
+            br = new BufferedReader(new FileReader(new File(filePath)));            
+        
         } catch (FileNotFoundException e) {
             System.out.println("File: " + filePath + " not found.");
             //e.printStackTrace();
